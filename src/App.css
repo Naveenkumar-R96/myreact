@@ -9,7 +9,8 @@ footer{
   
   background-color: blue;
   text-align: center;
-  padding: 2rem
+  padding: 2rem;
+
 }
 .content{
   display: flex;

@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({length}) => {
     
     
   return (
    <footer>
-    Copyright&copy;
+    Footer contains {length} list {  length===1 ? "item" : "items"}
    </footer>
   )
 }
